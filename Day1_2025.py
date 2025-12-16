@@ -14,7 +14,7 @@ for command in input_file:
         current_num = (current_num + num_of_turns)%100
         # print(f"R : {current_num}")
     elif direction_to_turn == "L":
-        # Subtract from the number and get the mod value to bound value between 0 - 99s
+        # Subtract from the number and get the mod value to bound value between 0 - 99
         current_num = (current_num - num_of_turns)%100
         # print(f"L : {current_num}")
     if current_num == 0:
